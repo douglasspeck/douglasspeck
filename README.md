@@ -1,6 +1,6 @@
 # Welcome to my profile!
-## Allow me to introduce myself...
 
+Allow me to introduce myself...
 I am Douglas (please, Doug), a 17yo incoming web-dev.
 
 <p align="center">
