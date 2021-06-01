@@ -1,5 +1,7 @@
 # Welcome to my profile! I am Doug!
 
+
+
 Allow me to introduce myself...
 I am Douglas (please, Doug), a 17yo incoming web-dev.
 
@@ -10,11 +12,15 @@ I am Douglas (please, Doug), a 17yo incoming web-dev.
   </a>
 </p>
 
+
+
 ## Who am I?
 
 I am a brazilian teenager, currently finishing High School and studying to become a **polymath**. I am **passionate** about mathematics and educational processes.
 
 Furthermore, I really enjoy ```web design and programming```, which is my main hobby and I have been developing within my projects.
+
+
 
 ### In Short:
 
@@ -24,6 +30,8 @@ Furthermore, I really enjoy ```web design and programming```, which is my main h
 - Curious 🧠
 - I work well both in groups  
   and by myself 👥
+
+
 
 ## My Toolbox
 <p style="display: inline_block" align="center">
