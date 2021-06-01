@@ -27,7 +27,7 @@ Furthermore, I really enjoy ```web design and programming```, which is my main h
 
 ## My Toolbox
 <p style="display: inline_block" align="center">
-  <img alt="HTML Logo" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
-  <img alt="CSS Logo" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
-  <img alt="JavaScript Logo" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/>
+  <img alt="HTML Logo" height="100" width="100" margin="auto" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
+  <img alt="CSS Logo" height="100" width="100" margin="auto" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
+  <img alt="JavaScript Logo" height="100" width="100" margin="auto" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/>
 </p>
