@@ -46,5 +46,5 @@ Furthermore, I really enjoy ```web design and programming```, which is my main h
 
 <p>
   Below you can see that I have some public repositories as a reference os my work. <br>
-  Please, consider commenting, suggesting or commiting :)
+  Please, consider rating, suggesting or commiting :)
 </p>
