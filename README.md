@@ -41,3 +41,7 @@ Furthermore, I really enjoy ```web design and programming```, which is my main h
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img alt="JavaScript Logo" height="80" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/>
 </p>
+
+
+
+<p> Below you can see that I have some public repositories as a reference os my work. Please, consider commenting, suggesting or commiting :)</p>
