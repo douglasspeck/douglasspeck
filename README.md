@@ -16,7 +16,7 @@ I am Douglas (please, Doug), a 17yo incoming web-dev.
 
 ## Who am I?
 
-I am a brazilian teenager, currently finishing High School and studying to become a **polymath**. I am **passionate** about mathematics and educational processes.
+I am a brazilian teenager, graduated from High School and studying to become a **polymath**. I am **passionate** about mathematics and educational processes.
 
 Furthermore, I really enjoy ```web design and programming```, which is my main hobby and I have been developing within my projects.
 
