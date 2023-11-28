@@ -1,9 +1,9 @@
-# Welcome to my profile! I am Doug!
+# Welcome to my profile! I am Speck!
 
 
 
 Allow me to introduce myself...
-I am Douglas (please, Doug), a 17yo incoming web-dev.
+I am Douglas Speck, a 19yo incoming web-dev.
 
 <p align="center">
   <a href="https://github.com/douglasspeck">
@@ -16,9 +16,9 @@ I am Douglas (please, Doug), a 17yo incoming web-dev.
 
 ## Who am I?
 
-I am a brazilian teenager, graduated from High School and studying to become a **polymath**. I am **passionate** about mathematics and educational processes.
+I am a brazilian young adult, studying Math Education and incoming **polymath**. I am **passionate** about (web-) design and digital interfaces in educational processes.
 
-Furthermore, I really enjoy ```web design and programming```, which is my main hobby and I have been developing within my projects.
+Furthermore, I really enjoy ```web design and programming``` at all, which is my main hobby and I have been developing within my projects.
 
 
 
@@ -40,6 +40,8 @@ Furthermore, I really enjoy ```web design and programming```, which is my main h
   <img alt="CSS Logo" height="80" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img alt="JavaScript Logo" height="80" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="PHP Logo" height="80" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg"/>
 </p>
 
 
