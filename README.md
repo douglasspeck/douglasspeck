@@ -1,9 +1,7 @@
-# Welcome to my profile! I am Speck!
-
-
+# Welcome to my profile! I am tresdoug!
 
 Allow me to introduce myself...
-I am Douglas Speck, a 19yo incoming web-dev.
+My name is Douglas Speck, but call me **@tresdoug**, and I tell stories through Design, Data and Education.
 
 <p align="center">
   <a href="https://github.com/douglasspeck">
@@ -12,41 +10,16 @@ I am Douglas Speck, a 19yo incoming web-dev.
   </a>
 </p>
 
-
-
 ## Who am I?
 
-I am a brazilian young adult, studying Math Education and incoming **polymath**. I am **passionate** about (web-) design and digital interfaces in educational processes.
-
-Furthermore, I really enjoy ```web design and programming``` at all, which is my main hobby and I have been developing within my projects.
-
-
-
-### In Short:
-
-- Brazilian 🇧🇷
-- Front-end 💻
-- Web-Design 🎨
-- Curious 🧠
-- I work well both in groups  
-  and by myself 👥
-
-
+I am a brazilian young adult, currently studying Math Education at [Universidade Estadual de Campinas](https://www.unicamp.br/unicamp/) and incoming **polymath**. I am **passionate** about design and digital interfaces in educational processes.
 
 ## My Toolbox
-<p style="display: inline_block" align="center">
-  <img alt="HTML Logo" height="80" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="CSS Logo" height="80" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="JavaScript Logo" height="80" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="PHP Logo" height="80" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg"/>
-</p>
+I am well experienced with design concepts and tools such as Figma, GIMP and Inkscape.
+I have worked with native PHP, CSS and JS and don't particularly like any libraries for such languages.
+Also, I significantly comprehend and use acessibility design concepts within my projects.
 
+---
 
-
-<p>
-  Below you can see that I have some public repositories as a reference os my work. <br>
-  Please, consider rating, suggesting or commiting :)
-</p>
+Below you can see that I have some public repositories as a reference os my work.
+Please, consider rating, suggesting or commiting :)
