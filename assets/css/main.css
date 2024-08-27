@@ -62,6 +62,7 @@ aside {
     font-family: var(--main-font);
     gap: 1em;
     letter-spacing: -0.1ch;
+    text-align: justify;
 }
 
 aside > img {
@@ -245,4 +246,45 @@ section.gallery > article blockquote > p:first-child::after {
 section.gallery > article cite::before {
     content: '—';
     padding-right: 0.5ch;
+}
+
+@media screen and (orientation: portrait) {
+
+    body {
+        flex-direction: column;
+        overflow-y: auto;
+        height: auto;
+    }
+
+    aside, aside > img {
+        width: calc(100vw - 6rem);
+        height: auto;
+        font-size: 1.25em;
+    }
+
+    aside > h1 {
+        font-size: 1.75rem;
+    }
+
+    main {
+        height: auto;
+        overflow: visible;
+        font-size: 1.25rem;
+        padding: 2rem 1rem;
+    }
+
+    main a:not(.button) {
+        margin-right: 0;
+    }
+
+    main a:not(.button)::after {
+        display: none;
+    }
+
+    section.gallery > article > header {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+
 }
