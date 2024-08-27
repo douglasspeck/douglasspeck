@@ -21,9 +21,13 @@
         <meta name="og:email" content="d260138@dac.unicamp.br">
         <meta name="og:phone_number" content="47988479362">
         <meta name="og:site_name" content="tresdoug">
-        <meta name="og:description" content="Meu nome é Douglas Speck. Eu conto histórias através do design, de dados e da Educação.">
+        <meta name="og:description" content="Meu nome é Douglas Speck. Eu sou aluno da Licenciatura em Matemática na Unicamp.">
 
         <!-- Favicons -->
+        <link rel="icon" href="assets/img/favicon/favicon.ico" sizes="any">
+        <link rel="icon" href="assets/img/favicon/icon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png">
+        <link rel="manifest" href="assets/img/favicon/site.webmanifest">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +35,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&amp;family=Not+Sans:ital,wght@0,100..900;1,100..900&amp;family=Shadows+Into+Light+Two&amp;display=swap" rel="stylesheet">
 
         <!-- Stylesheets -->
+        <link rel="preload" as="style" onload="this.remove();" href="/assets/css/main.css" type="text/css">
+        <link rel="stylesheet" href="/assets/css/main.css" type="text/css">
 
     </head>
     <body>
@@ -40,31 +46,56 @@
                 decoding="async"
                 sizes="(max-width: 600px) 100vw, 600px"
                 srcset="
-                    assets/speck_100.jpg 100w,
-                    assets/speck_286.jpg 286w,
-                    assets/speck_421.jpg 421w,
-                    assets/speck_525.jpg 525w,
-                    assets/speck_572.jpg 572w,
-                    assets/speck_600.jpg 600w"
-                src="assets/speck_600.jpg"
+                    assets/img/speck_100.jpg 100w,
+                    assets/img/speck_286.jpg 286w,
+                    assets/img/speck_421.jpg 421w,
+                    assets/img/speck_525.jpg 525w,
+                    assets/img/speck_572.jpg 572w,
+                    assets/img/speck_600.jpg 600w"
+                src="assets/img/speck_600.jpg"
                 alt="Foto minha de perfil em escala de cinza. Sou um rapaz branco com cabelos médios e cavanhaque por fazer usando um chapéu panamá e óculos de armação grossa. Estou olhando diretamente para a câmera e fazendo o sinal da letra dê em Libras."
             >
             <h1>Douglas Felipe Speck</h1>
-            <p>Licenciando em Matemática na Unicamp, protagonista e apaixonado por Educação. Ex-Presidente Executivo do Núcleo Campinas de Empresas Juniores. Ex-Vice-Presidente da Delta Junior.</p>
+            <p>Licenciando em Matemática na Unicamp, <i lang="en">tech-savvy</i> e apaixonado por Educação. Interessado em Interfaces Digitais e Gamificação na Educação Matemática.</p>
             <nav>
                 <a href="#pesquisa">Pesquisa</a>
                 <a href="#extensao">Extensão</a>
-                <a href="#demais">Demais Experiências</a>
+                <a href="#demais">Experiências</a>
             </nav>
             <footer>
                 <a href="http://lattes.cnpq.br/5393322326221511">
-                    <img src="" alt="Currículo Lattes">
+                    <img srcset="
+                        assets/img/icons/lattes/50.png 50w,
+                        assets/img/icons/lattes/200.png 200w
+                    " src="assets/img/icons/lattes/200.png" alt="Meu Currículo Lattes" loading="lazy" decoding="async">
+                </a>
+                <a href="https://github.com/douglasspeck/">
+                    <img srcset="
+                        assets/img/icons/github/50.png 50w,
+                        assets/img/icons/github/512.png 512w
+                    " src="assets/img/icons/github/512.png" alt="Meu GitHub" loading="lazy" decoding="async">
                 </a>
                 <a href="https://www.linkedin.com/in/douglas-speck/">
-                    <img src="" alt="LinkedIn">
+                    <img srcset="
+                        assets/img/icons/in/14.png 14w,
+                        assets/img/icons/in/21.png 21w,
+                        assets/img/icons/in/26.png 26w,
+                        assets/img/icons/in/34.png 34w,
+                        assets/img/icons/in/40.png 40w,
+                        assets/img/icons/in/48.png 48w,
+                        assets/img/icons/in/72.png 72w,
+                        assets/img/icons/in/96.png 96w,
+                        assets/img/icons/in/128.png 128w
+                    " src="assets/img/icons/in/48.png" alt="Meu Linkedin" loading="lazy" decoding="async">
                 </a>
                 <a href="mailto:d260138@dac.unicamp.br">
-                    <img src="" alt="E-mail Institucional">
+                    <img srcset="
+                        assets/img/icons/mail/32.png 32w,
+                        assets/img/icons/mail/64.png 64w,
+                        assets/img/icons/mail/128.png 128w,
+                        assets/img/icons/mail/256.png 256w,
+                        assets/img/icons/mail/512.png 512w
+                    " src="assets/img/icons/mail/64.png" alt="Meu e-mail institucional" loading="lazy" decoding="async">
                 </a>
             </footer>
         </aside>
@@ -92,14 +123,14 @@
                     <p>A Delta Jr é a primeira Empresa Júnior de Licenciatura em Matemática do Brasil. Fundada em 2018, a EJ oferece serviços em educação matemática para estudantes, familiares, educadores, plataformas, editoras e instituições de ensino.</p>
                     <p>Ingressei na mesma em 2022, onde permaneci como analista de projetos até o fim de 2023. Em paralelo, fui Vice-Presidente e Conselheiro da EJ em 2023.</p>
                     <p>Gerenciei e executei uma variedade de projetos, incluindo a análise de materiais didáticos e a coordenação de eventos educacionais, como a Olimpíada de Matemática da Unicamp.</p>
-                    <p>Trabalhei muito com análise de dados e desenvolvi muitas planilhas eletrônicas no processo, além de <span lang="en">websites</span>. Por fim, trabalhei com editoração e diagramação de documentos.</p>
+                    <p>Trabalhei muito com análise de dados e desenvolvi muitas planilhas eletrônicas no processo, além de <i lang="en">websites</i>. Por fim, trabalhei com editoração e diagramação de documentos.</p>
                     <p></p>
                     <a class="button" href="https://deltajr.net/">Site Institucional</a>
                     <figure>
                         <blockquote>
                             <p>A equipe, na figura do Douglas Speck, foi muito solícita e prática no entendimento das solicitações e entrega dos materiais. Parabéns.</p>
                         </blockquote>
-                        <figcaption><cite>José Alberto (Beto) Zequetto</cite></figcaption>
+                        <figcaption><cite>José Alberto Zequetto, fundador do <a href="https://www.instagram.com/matematicaparabrilhar">Matemática Para Brilhar</a></cite></figcaption>
                     </figure>
                 </article>
                 <article>
@@ -116,23 +147,27 @@
                 <article>
                     <header>
                         <h3>Presidência do Núcleo Campinas</h3>
-                        <p class="periodo">2024/1 - atual</p>
+                        <p class="periodo">2024/1 - 2024/2</p>
                     </header>
-                    <p>Atualmente, sou Presidente Executivo do Núcleo de Empresas Juniores da Região de Campinas (NuCa), que é o órgão que representa, potencializa e articula as empresas juniores da região de Campinas.</p>
-                    <p>Como Presidente Executivo, sou responsável pelas frentes de expansão da rede e relacionamento institucional, além de aceleração e regulamentaçãodas 49 empresas juniores já existentes na região.</p>
+                    <p>F Presidente Executivo do Núcleo de Empresas Juniores da Região de Campinas (NuCa), que é o órgão que representa, potencializa e articula as empresas juniores da região de Campinas.</p>
+                    <p>Como Presidente Executivo, era responsável pelas frentes de expansão da rede e relacionamento institucional, além de aceleração e regulamentação das mais de 45 empresas juniores já existentes na região.</p>
                 </article>
                 <article>
-                    <h3>Acompanhamento de Fernanda</h3>
-                    <p class="periodo">2023/1 - 2024/1</p>
+                    <header>
+                        <h3>Acompanhamento de Fernanda</h3>
+                        <p class="periodo">2023/1 - 2024/1</p>
+                    </header>
                     <p>Fernanda era aluna do sétimo ano. Por conta de complicações respiratórias durante a primeira infância, ela sofreu danos que comprometem algumas funções motoras, da memória e da fala (Síndrome de Wernicke). Ela utiliza aparelho para oxigenação, além de tubo de traqueostomia. Por conta de suas limitações de comunicação, <strong>fui contratado para ajudar a integrá-la ao ambiente educacional</strong>, servindo como intermediador entre ela e seus professores e colegas. Assim, <em>o foco do processo era a Inclusão</em>.</p>
                     <p>Fernanda estudava em um colégio particular de pequeno porte, com uma turma por série, o que promovia alta interação entre os alunos, contato prolongado com os professores e, de maneira geral, a inclusão dela. A metodologia do colégio era tradicional: lousa e apostilas; por isso, busquei trazer <strong>material complementar</strong> para auxiliá-la.</p>
                     <p>Ademais, Fernanda está em processo de alfabetização, sendo acompanhada por uma psicopedagoga e uma fonoaudióloga. Segundo relatado, houve uma tentativa anterior de educá-la em língua de sinais, mas suas limitações motoras atrapalharam o processo. Desde então, ela tem sido oralizada com o modelo misto (que utiliza sinais para destacar os fonemas). Durante meu trabalho com ela, <em>consegui ensinar cerca de 30 sinais para ela</em>, com os quais ela conseguia compor algumas sentenças.</p>
                 </article>
                 <article>
-                    <h3>Projeto Go Big</h3>
-                    <p class="periodo">2020/2 - 2021/1</p>
+                    <header>
+                        <h3>Projeto Go Big</h3>
+                        <p class="periodo">2020/2 - 2021/1</p>
+                    </header>
                     <p>O Projeto Go Big era um projeto de democratização da educação, formado por estudantes de Ensino Médio com interesse em atividades extraclasse. A proposta era conectar alunos com experiência para permitir a estudantes sem recursos o acesso às olimpíadas do conhecimento.</p>
-                    <p>Fui monitor por algum tempo e prestei mais de 10 aulões de olimpíada. Desenvolvi uma trilha de aprendizagem através do <span lang="en">Google Classroom</span> e elaborei todo o material utilizado para minhas aulas.</p>
+                    <p>Fui monitor por algum tempo e prestei mais de 10 aulões de olimpíada. Desenvolvi uma trilha de aprendizagem através do <i lang="en">Google Classroom</i> e elaborei todo o material utilizado para minhas aulas.</p>
                     <p>Além disso, fui responsável pela reestruturação completa e redação do site do projeto.</p>
                 </article>
             </section>

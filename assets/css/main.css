@@ -1,0 +1,248 @@
+:root {
+    --light-green: #99D98C;
+    --keppel: #52B69A;
+    --indigo-dye: #184E77;
+    --c1: var(--light-green);
+    --c2: var(--keppel);
+    --c3: var(--indigo-dye);
+    --gray:         #222222;
+    --light-gray:   #EEEEEE;
+    --main-font: 'Noto Sans', sans-serif;
+    --body-font: 'Martel', serif;
+    --handwritten-font: 'Shadows Into Light Two';
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    font-family: var(--body-font);
+    font-weight: 400;
+    background-color: var(--light-gray);
+    color: var(--gray);
+    overflow: hidden;
+    display: flex;
+    hyphens: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+    line-height: 1.15;
+    hyphens: inherit;
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+aside {
+    background-color: var(--gray);
+    color: var(--light-gray);
+    width: 15em;
+    padding: 2.5em;
+    height: calc(100vh - 5em);
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+    font-family: var(--main-font);
+    gap: 1em;
+    letter-spacing: -0.1ch;
+}
+
+aside > img {
+    width: 15em;
+    height: 15em;
+}
+
+aside > h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+
+aside > nav {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0;
+}
+
+aside > nav > a {
+    --s: 2px;
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--c3);
+    margin-bottom: 1rem;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s linear;
+}
+
+aside > nav:hover > a:not(:hover) {
+    opacity: 0.5;
+}
+
+aside > footer {
+    margin-top: auto;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+aside > footer img {
+    height: 100%;
+    width: auto;
+    opacity: 0.5;
+    transition: all 0.1s linear;
+}
+
+aside > footer img:hover {
+    opacity: 0.8;
+}
+
+main {
+    padding: 2.5em;
+    overflow-y: auto;
+}
+
+main h2 {
+    font-family: var(--main-font);
+    color: var(--c2);
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+main a:not(.button) {
+    color: var(--c3);
+    font-weight: 900;
+    position: relative;
+    margin-right: 1ch;
+}
+
+main a:not(.button)::after {
+    content: '🡕';
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(1ch, 0);
+}
+
+main a.button {
+    display: block;
+    width: max-content;
+    font-family: var(--main-font);
+    font-weight: bold;
+    border-radius: 1em;
+    text-transform: uppercase;
+    background-color: var(--c1);
+    padding: 0.5em 1em;
+    margin: 1em auto 0;
+    letter-spacing: -0.1ch;
+}
+
+main section {
+    padding-top: 3em;
+}
+
+section.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+section.gallery > article {
+    border: 1px solid #bbb;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+section.gallery > article > header {
+    font-family: var(--main-font);
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #bbb;
+}
+
+section.gallery > article h3 {
+    font-family: var(--handwritten-font);
+    letter-spacing: 0.2ch;
+    font-size: 1.5em;
+    color: #000;
+}
+
+section.gallery > article .periodo {
+    color: var(--c2);
+}
+
+section.gallery > article .periodo::before {
+    content: "<";
+    margin-right: 0.25ch;
+}
+
+section.gallery > article .periodo::after {
+    content: ">";
+    margin-left: 0.25ch;
+}
+
+section.gallery > article > p {
+    margin-top: 0.5rem;
+    text-indent: 2rem;
+    line-height: 1.25;
+    letter-spacing: -0.1ch;
+}
+
+section.gallery > article > figure {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    background-color: #ccc;
+    border-left: 5px solid var(--gray);
+    padding: 1rem;
+}
+
+section.gallery > article blockquote > p:first-child::before {
+    display: inline-block;
+    content: '“';
+    color: var(--gray);
+    font-size: 2em;
+    transform: translateY(0.3em);
+}
+
+section.gallery > article blockquote > p:first-child::after {
+    display: inline-block;
+    content: '”';
+    color: var(--gray);
+    font-size: 2em;
+    transform: translateY(0.6em);
+}
+
+section.gallery > article cite::before {
+    content: '—';
+    padding-right: 0.5ch;
+}
