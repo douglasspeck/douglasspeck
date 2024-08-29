@@ -104,10 +104,17 @@ aside > nav:hover > a:not(:hover) {
 
 aside > footer {
     margin-top: auto;
-    height: 2em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 1em;
+}
+
+aside > footer > section {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    height: 2em;
 }
 
 aside > footer img {
