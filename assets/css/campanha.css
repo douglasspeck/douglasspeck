@@ -1,0 +1,26 @@
+main p {
+    padding-bottom: 0.5rem;
+}
+
+main h1 {
+    font-family: var(--main-font);
+    color: var(--c2);
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+main ul > li {
+    margin-left: 2em;
+    max-width: 50%;
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (orientation: landscape) {
+
+    main {
+        max-width: 60%;
+        margin: auto;
+    }
+
+}
