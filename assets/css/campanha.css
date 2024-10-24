@@ -1,26 +1,115 @@
-main p {
-    padding-bottom: 0.5rem;
+body {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+main {
+    margin: 10vh auto;
+    height: auto;
+    overflow: visible;
+}
+
+main p, main > details {
+    padding-bottom: 1rem;
 }
 
 main h1 {
-    font-family: var(--main-font);
+    font-family: var(--handwritten-font);
+    letter-spacing: 5px;
     color: var(--c2);
     font-size: 2.5em;
     font-weight: bold;
     padding-bottom: 1.5rem;
 }
 
+main h1::after {
+    display: inline-block;
+    content: '=)';
+    transform: translateX(1ch) translateY(-0.5ch) rotate(60deg);
+    animation: blink 2s infinite forwards;
+}
+
+@keyframes blink {
+    0% {
+        content: '=)';
+        transform: translateX(1ch) translateY(-0.5ch) rotate(60deg);
+    }
+    50% {
+        content: ':)';
+        transform: translateX(1.7ch) translateY(-0.1ch) rotate(60deg);
+    }
+    100% {
+        content: '=)';
+        transform: translateX(1ch) translateY(-0.5ch) rotate(60deg);
+    }
+}
+
 main ul > li {
     margin-left: 2em;
-    max-width: 50%;
     padding-bottom: 0.5rem;
 }
+
+main > details > summary {
+    background-color: var(--c2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transform: translateX(-2px);
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: #fff;
+}
+
+main > details > summary::before {
+    content: '';
+    display: block;
+    width: 0.7ch;
+    height: 0.7ch;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+    margin-right: 0.75ch;
+    transition: transform 0.15s ease-in-out;
+}
+
+main > details[open] > summary::before {
+    transform: rotate(135deg) translate(-0.35ch);
+}
+
+ main > details > p {
+    padding: 0;
+    padding-top: 0.5rem;
+ }
+
+ main > hr {
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 1px solid var(--gray);
+    width: calc(100% + 2ch);
+    transform: translateX(calc(-1ch));
+ }
 
 @media screen and (orientation: landscape) {
 
     main {
         max-width: 60%;
-        margin: auto;
+        margin: 10vh auto;
+        height: max-content;
+    }
+
+    main ul > li {
+        max-width: 60%;
+    }
+
+    main > details > summary {
+        background-color: var(--c2);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        width: calc(100% + 4ch);
+        transform: translateX(calc(-2ch - 10px));
     }
 
 }
