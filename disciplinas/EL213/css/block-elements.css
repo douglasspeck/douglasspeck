@@ -1,0 +1,52 @@
+hr {
+    width: 90%;
+    margin: 1.5em auto;
+}
+
+ul.flowchart {
+    display: flex;
+    width: 70%;
+    margin: var(--x) auto;
+}
+
+ul.flowchart > li {
+    display: block;
+    flex: 1 1 0;
+    margin: 0;
+    background-color: var(--a3);
+    padding: var(--x);
+    position: relative;
+    box-sizing: border-box;
+}
+
+ul.flowchart > li::marker {
+    display: none;
+}
+
+ul.flowchart > li:not(:first-child) {
+    padding-left: calc(var(--x) * 2);
+}
+
+ul.flowchart > li:not(:last-child) {
+    padding-right: calc(var(--x) * 4);
+}
+
+ul.flowchart > li:last-child {
+    padding-right: calc(var(--x) * 2);
+}
+
+ul.flowchart > li:after {
+    content: '';
+    background-color: white;
+    height: calc(100% + 2px);
+    width: calc(var(--x) * 3);
+    position: absolute;
+    top: -1px;
+    right: 0;
+    clip-path: polygon(0 0, 50% 0, 100% 50%, 50% 100%, 0 100%, 50% 50%);
+    --webkit-clip-path: polygon(0 0, 50% 0, 100% 50%, 50% 100%, 0 100%, 50% 50%);
+}
+
+ul.flowchart > li:last-child:after {
+    transform: translateX(50%);
+}

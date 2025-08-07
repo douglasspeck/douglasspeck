@@ -1,0 +1,11 @@
+li {
+    margin-left: 2em;
+}
+
+li::marker {
+    color: var(--a1);
+}
+
+ol > li::marker {
+    font-weight: bold;
+}

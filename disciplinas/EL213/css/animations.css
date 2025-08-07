@@ -1,0 +1,34 @@
+@keyframes scaleY {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(100%);
+    }
+}
+
+@keyframes horizontal-bounce {
+    0% {
+        transform: translateX(-30%);
+    }
+    100% {
+        transform: translateX(30%);
+    }
+}
+
+@keyframes horizontal-highlight {
+    0% {
+        background-image: linear-gradient(#ffffaa, #ffffaa);
+        background-repeat: no-repeat;
+        background-size: 0 70%;
+        background-position: 0 center;
+    }
+    50% {
+        background-size: 85% 70%;
+        background-position: 0 center;
+    }
+    100% {
+        background-size: 85% 70%;
+        background-position: 0 center;
+    }
+}

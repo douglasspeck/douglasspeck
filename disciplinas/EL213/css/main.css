@@ -1,0 +1,46 @@
+:root {
+    --x: calc(0.5vw + 0.5vh);
+    --a1: #ff003d;
+    --a2: #ff809e;
+    --a3: #ffe5eb;
+    --b1: #3d00ff;
+    --g0: #222222;
+    --g1: #666666;
+    --g2: #EEEEEE;
+    --shf: 4.9406564584124654e-324;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: 'Open Sans', sans-serif;
+    z-index: inherit;
+    font-size: inherit;
+    color: var(--g0);
+    hyphens: auto;
+}
+
+html, body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--g2);
+}
+
+main {
+    --pad: 5vh;
+    width: calc(80vw - 2 * var(--pad));
+    height: calc(90vh - 2 * var(--pad));
+    padding: var(--pad);
+    position: absolute;
+    top: 5vh;
+    left: calc(10vw);
+    overflow: auto;
+    scroll-behavior: auto;
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+}

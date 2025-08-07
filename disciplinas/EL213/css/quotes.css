@@ -1,0 +1,47 @@
+blockquote {
+    background-color: var(--a3);
+    margin-top: var(--x);
+    margin-left: calc(var(--x) * 5);
+    padding: var(--x);
+    border-left: 3px solid var(--a1);
+}
+
+blockquote > p:first-of-type:before, blockquote > p:last-of-type:after {
+    content: '"';
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote.high-quote {
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: 1.5em;
+    color: var(--a1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 0.5em 0 1em;
+}
+
+blockquote > p {
+    margin: 0;
+    display: inline;
+    font: inherit;
+    color: inherit;
+}
+
+blockquote.high-quote > p:before, blockquote.high-quote > p:after {
+    content: '';
+    font: inherit;
+}
+
+blockquote.high-quote::before, blockquote.high-quote::after {
+    content: '"';
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+cite::before { content: '(' }
+cite::after { content: ')' }

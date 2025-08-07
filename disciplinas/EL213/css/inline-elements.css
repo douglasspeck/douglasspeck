@@ -1,0 +1,36 @@
+abbr {
+    color: inherit;
+    text-decoration: underline solid 2px;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 0.5em;
+    background-color: var(--b1);
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.duvida, .new {
+    background-color: #ffffaa;
+    color: #000;
+}
+
+h1:target::after,
+h2:target::after,
+h3:target::after,
+h4:target::after,
+h5:target::after,
+h6:target::after {
+    display: inline-block;
+    content: '\1f448';
+    font-size: 1.5em;
+    margin-left: 1em;
+    animation: horizontal-bounce 0.5s infinite ease-in-out alternate;
+}
+
+span > a[title="Get a direct link"] {
+    display: none !important;
+}

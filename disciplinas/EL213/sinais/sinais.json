@@ -1,0 +1,395 @@
+{
+    "sign_list" : [
+        {
+            "sign" : "espaço"
+        },
+        {
+            "sign" : "idade",
+            "content" : "Y para trás no ombro"
+        },
+        {
+            "sign" : "meu-nome",
+            "cm" : "24",
+            "pa" : null,
+            "m" : "linear para a direita",
+            "o" : "para baixo",
+            "enm" : null
+        },
+        {
+            "sign" : "olá"
+        },
+        {
+            "sign" : "conteúdo"
+        },
+        {
+            "sign" : "verbo"
+        },
+        {
+            "sign" : "poder"
+        },
+        {
+            "sign" : "ver"
+        },
+        {
+            "sign" : "conseguir"
+        },
+        {
+            "sign" : "avisar"
+        },
+        {
+            "sign" : "perceber"
+        },
+        {
+            "sign" : "conhecer"
+        },
+        {
+            "sign" : "entregar-dar"
+        },
+        {
+            "sign" : "emprestar"
+        },
+        {
+            "sign" : "alugar"
+        },
+        {
+            "sign" : "buscar-pegar"
+        },
+        {
+            "sign" : "parecer"
+        },
+        {
+            "sign" : "ajudar"
+        },
+        {
+            "sign" : "falar"
+        },
+        {
+            "sign" : "vender"
+        },
+        {
+            "sign" : "ou"
+        },
+        {
+            "sign" : "comprar"
+        },
+        {
+            "sign" : "pedir"
+        },
+        {
+            "sign" : "fazer-realizar"
+        },
+        {
+            "sign" : "ficar aqui"
+        },
+        {
+            "sign" : "parar"
+        },
+        {
+            "sign" : "esperar"
+        },
+        {
+            "sign" : "achar"
+        },
+        {
+            "sign" : "achar-2"
+        },
+        {
+            "sign" : "trabalhar"
+        },
+        {
+            "sign" : "ensinar"
+        },
+        {
+            "sign" : "aprender"
+        },
+        {
+            "sign" : "perguntar"
+        },
+        {
+            "sign" : "responder"
+        },
+        {
+            "sign" : "somar-total-contabilidade-cálculo"
+        },
+        {
+            "sign" : "subtrair"
+        },
+        {
+            "sign" : "dividir"
+        },
+        {
+            "sign" : "entender"
+        },
+        {
+            "sign" : "ligar+telefone"
+        },
+        {
+            "sign" : "enviar-sms"
+        },
+        {
+            "sign" : "enviar-email"
+        },
+        {
+            "sign" : "imaginar"
+        },
+        {
+            "sign" : "sonhar"
+        },
+        {
+            "sign" : "precisar-necessitar-dever"
+        },
+        {
+            "sign" : "escolher-selecionar-preferir"
+        },
+        {
+            "sign" : "roubar"
+        },
+        {
+            "sign" : "fingir"
+        },
+        {
+            "sign" : "mentir"
+        },
+        {
+            "sign" : "encontrar"
+        },
+        {
+            "sign" : "desconfiar"
+        },
+        {
+            "sign" : "obedecer"
+        },
+        {
+            "sign" : "saber"
+        },
+        {
+            "sign" : "mandar"
+        },
+        {
+            "sign" : "família"
+        },
+        {
+            "sign" : "masculino-feminino"
+        },
+        {
+            "sign" : "pai-mãe"
+        },
+        {
+            "sign" : "av@"
+        },
+        {
+            "sign" : "filh@"
+        },
+        {
+            "sign" : "adotiv@"
+        },
+        {
+            "sign" : "irm@"
+        },
+        {
+            "sign" : "mei@-irm@"
+        },
+        {
+            "sign" : "genro"
+        },
+        {
+            "sign" : "nora"
+        },
+        {
+            "sign" : "gême@"
+        },
+        {
+            "sign" : "ti@"
+        },
+        {
+            "sign" : "prim@"
+        },
+        {
+            "sign" : "cunhad@"
+        },
+        {
+            "sign" : "bisav@"
+        },
+        {
+            "sign" : "trisavó"
+        },
+        {
+            "sign" : "casal-casamento"
+        },
+        {
+            "sign" : "madrasta-padrasto"
+        },
+        {
+            "sign" : "noiv@"
+        },
+        {
+            "sign" : "sogr@"
+        },
+        {
+            "sign" : "crianças"
+        },
+        {
+            "sign" : "amig@"
+        },
+        {
+            "sign" : "net@"
+        },
+        {
+            "sign" : "afilhad@"
+        },
+        {
+            "sign" : "jovem-adolescência"
+        },
+        {
+            "sign" : "namorad@"
+        },
+        {
+            "sign" : "sobrinh@"
+        },
+        {
+            "sign" : "solteir@"
+        },
+        {
+            "sign" : "vizinh@"
+        },
+        {
+            "sign" : "dependente"
+        },
+        {
+            "sign" : "divorciad@"
+        },
+        {
+            "sign" : "separad@"
+        },
+        {
+            "sign" : "poliamor"
+        },
+        {
+            "sign" : "viúv@"
+        },
+        {
+            "sign" : "geração"
+        },
+        {
+            "sign" : "antepassado"
+        },
+        {
+            "sign" : "antigo"
+        },
+        {
+            "sign" : "feliz",
+            "cm" : "54",
+            "pa" : null,
+            "m" : "circular para baixo",
+            "o" : "para frente",
+            "enm" : "expressão feliz"
+        },
+        {
+            "sign" : "acampamento",
+            "cm" : "37a",
+            "pa" : null,
+            "m" : "diagonal de dentro para fora e para baixo",
+            "o" : "para dentro",
+            "enm" : null
+        },
+        {
+            "sign" : "documento",
+            "cm" : "37a",
+            "pa" : "palma da mão",
+            "m" : "linear para baixo",
+            "o" : "para baixo",
+            "enm" : null
+        },
+        {
+            "sign" : "arco-íris",
+            "cm" : "58",
+            "pa" : null,
+            "m" : "parábola de dentro para fora por cima",
+            "o" : "para baixo",
+            "enm" : null
+        },
+        {
+            "sign" : "cinema",
+            "cm" : "64",
+            "cm-a": "61",
+            "pa" : "dorso da mão",
+            "m" : "intermitente da esquerda para a direita",
+            "o" : "para frente",
+            "enm" : null
+        },
+        {
+            "sign" : "conhecer",
+            "cm" : "58",
+            "pa" : "queixo",
+            "m" : "batidas intermitentes",
+            "o" : "para o lado",
+            "enm" : null
+        },
+        {
+            "sign" : "Profissão/prática"
+        },
+        {
+            "sign" : "Profissional"
+        },
+        {
+            "sign" : "Curso/cursar"
+        },
+        {
+            "sign" : "Disciplina/Matéria"
+        },
+        {
+            "sign" : "Licenciatura"
+        },
+        {
+            "sign" : "Professor"
+        },
+        {
+            "sign" : "Morar/Casa"
+        },
+        {
+            "sign" : "Cidade"
+        },
+        {
+            "sign" : "Bairro"
+        },
+        {
+            "sign" : "Rua"
+        },
+        {
+            "sign" : "Avenida"
+        },
+        {
+            "sign" : "País"
+        },
+        {
+            "sign" : "Barão Geraldo"
+        },
+        {
+            "sign" : "Campinas"
+        },
+        {
+            "sign" : "São Paulo"
+        },
+        {
+            "sign" : "Junto"
+        },
+        {
+            "sign" : "Gato"
+        },
+        {
+            "sign" : "Cachorro"
+        },
+        {
+            "sign" : "Dia/Data"
+        },
+        {
+            "sign" : "Aniversário"
+        },
+        {
+            "sign" : "Nascimento"
+        },
+        {
+            "sign" : "Festa"
+        }
+    ]
+}
