@@ -1,4 +1,4 @@
 <?php
-header("Location: https://docs.google.com/document/d/1I_wipUtxuM2dBhwtKE9qQr-wikPRMh1xHLjBl_jVLDg/edit?tab=t.0#heading=h.7a9j7r9dkhqa");
+header("Location: https://sites.google.com/unicamp.br/cadernosautocorretivosfracoes/projeto-proeduca-aritm%C3%A9tica-nos-anos-iniciais");
 exit();
 ?>
