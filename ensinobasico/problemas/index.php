@@ -1,4 +1,4 @@
 <?php
-header("Location: https://cursos.ime.unicamp.br/");
+header("Location: https://sites.google.com/unicamp.br/cadernosautocorretivosfracoes/matem%C3%A1tica-elementar");
 exit();
 ?>
