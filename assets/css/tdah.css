@@ -1,0 +1,205 @@
+:root {
+    --c1: #00a8a8;
+    --c2: #0c6980;
+    --c3: #1f628e;
+    --c4: #c0f0f7;
+    --gray:         #222222;
+    --light-gray:   #EEEEEE;
+    --main-font: 'Montserrat', sans-serif;
+    --body-font: 'Montserrat', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    font-family: var(--body-font);
+    font-weight: 300;
+    font-optical-sizing: auto;
+    background-color: var(--light-gray);
+    background: url(../img/tdah/absurdity.png);
+    color: var(--gray);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    hyphens: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+    line-height: 1.15;
+    hyphens: inherit;
+}
+
+em {
+    font-style: normal;
+    font-weight: 500;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 90%;
+    padding: 10vh 5%;
+}
+
+main p {
+    margin-bottom: 0.5em;
+}
+
+#banner {
+    height: 70vh;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 5%;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    height: 8rem;
+}
+
+#titulo h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+#titulo h1 > .tdah > span {
+    display: inline-block;
+    animation: blink var(--t) infinite forwards;
+    font-size: 5rem;
+}
+
+#titulo h1 > .tdah > span:nth-child(1) {
+    --t: 2s;
+    --font-1: "Love Ya Like A Sister";
+    --font-2: "Montserrat Alternates";
+    --font-3: "Momo Signature";
+    --font-4: "Fontdiner Swanky";
+    --color-1: var(--c1);
+    --color-2: var(--c2);
+    --color-3: var(--c3);
+    --color-4: var(--c4);
+}
+
+#titulo h1 > .tdah > span:nth-child(2) {
+    --t: 5s;
+    --font-1: "Fontdiner Swanky";
+    --font-2: "Quintessential";
+    --font-3: "Montserrat Alternates";
+    --font-4: "Momo Signature";
+    --color-1: var(--c2);
+    --color-2: var(--c3);
+    --color-3: var(--c1);
+    --color-4: var(--c4);
+}
+
+#titulo h1 > .tdah > span:nth-child(3) {
+    --t: 3s;
+    --font-1: "Quintessential";
+    --font-2: "Momo Signature";
+    --font-3: "Fontdiner Swanky";
+    --font-4: "Love Ya Like A Sister";
+    --color-1: var(--c3);
+    --color-2: var(--c4);
+    --color-3: var(--c2);
+    --color-4: var(--c1);
+}
+
+#titulo h1 > .tdah > span:nth-child(4) {
+    --t: 7s;
+    --font-1: "Momo Signature";
+    --font-2: "Love Ya Like A Sister";
+    --font-3: "Quintessential";
+    --font-4: "Montserrat Alternates";
+    --color-1: var(--c2);
+    --color-2: var(--c1);
+    --color-3: var(--c4);
+    --color-4: var(--c3);
+}
+
+#todo-mundo::before, #todo-mundo::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    transform: translateY(-100%);
+    background-color: inherit;
+    mask-image: url(../img/tdah/wave.svg);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 100% 100%;
+    -webkit-mask-image: url(../img/tdah/wave.svg);
+    z-index: 1;
+}
+
+#todo-mundo::after {
+    mask-image: url(../img/tdah/wave-2.svg);
+    -webkit-mask-image: url(../img/tdah/wave-2.svg);
+    background-color: var(--c1);
+    z-index: 0;
+}
+
+#todo-mundo {
+    position: relative;
+    background-color: var(--c3);
+    color: var(--light-gray);
+    margin-top: 5vh;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+.expandir {
+    display: inline-block;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+}
+
+details:open .expandir {
+    width: max-content;
+    height: auto;
+}
+
+@keyframes blink {
+    0% { font-family: var(--font-1); color: var(--color-1); }
+    25% { font-family: var(--font-2); color: var(--color-2); }
+    50% { font-family: var(--font-3); color: var(--color-3); }
+    100% { font-family: var(--font-4); color: var(--color-4); }
+}
+
+@media screen and (orientation: landscape) {
+    
+    html,body {
+        font-size: 18px;
+    }
+
+}
