@@ -24,7 +24,10 @@ html, body {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    hyphens: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: manual;
+    hyphenate-limit-chars: 1 1 1;
 }
 
 * {
@@ -55,13 +58,17 @@ section {
 
 main p {
     margin-bottom: 0.5em;
+    text-align: justify;
 }
 
 #banner {
     height: 70vh;
-    text-align: center;
     font-size: 1.5rem;
     padding: 0 5%;
+}
+
+#banner #h1, #banner p {
+    text-align: center;
 }
 
 #titulo {
@@ -164,6 +171,7 @@ main p {
     background-color: var(--c3);
     color: var(--light-gray);
     margin-top: 5vh;
+    font-size: 1.25em;
 }
 
 h2 {
