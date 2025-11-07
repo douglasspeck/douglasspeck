@@ -40,6 +40,11 @@ html, body {
     font-weight: inherit;
     line-height: 1.15;
     hyphens: inherit;
+    cursor: default;
+}
+
+a {
+    cursor: pointer;
 }
 
 em {
@@ -53,7 +58,7 @@ main {
 
 section {
     width: 90%;
-    padding: 10vh 5%;
+    padding: 10vh 5% 0;
 }
 
 main p {
@@ -87,13 +92,12 @@ main p {
     font-weight: 300;
 }
 
-#titulo h1 > .tdah > span {
+.tdah > span {
     display: inline-block;
     animation: blink var(--t) infinite forwards;
-    font-size: 5rem;
 }
 
-#titulo h1 > .tdah > span:nth-child(1) {
+.tdah > span:nth-child(n) {
     --t: 2s;
     --font-1: "Love Ya Like A Sister";
     --font-2: "Montserrat Alternates";
@@ -105,7 +109,7 @@ main p {
     --color-4: var(--c4);
 }
 
-#titulo h1 > .tdah > span:nth-child(2) {
+.tdah > span:nth-child(2n) {
     --t: 5s;
     --font-1: "Fontdiner Swanky";
     --font-2: "Quintessential";
@@ -117,7 +121,7 @@ main p {
     --color-4: var(--c4);
 }
 
-#titulo h1 > .tdah > span:nth-child(3) {
+.tdah > span:nth-child(3n) {
     --t: 3s;
     --font-1: "Quintessential";
     --font-2: "Momo Signature";
@@ -129,7 +133,7 @@ main p {
     --color-4: var(--c1);
 }
 
-#titulo h1 > .tdah > span:nth-child(4) {
+.tdah > span:nth-child(4n) {
     --t: 7s;
     --font-1: "Momo Signature";
     --font-2: "Love Ya Like A Sister";
@@ -139,6 +143,10 @@ main p {
     --color-2: var(--c1);
     --color-3: var(--c4);
     --color-4: var(--c3);
+}
+
+#titulo h1 .tdah {
+    font-size: 5rem;
 }
 
 #todo-mundo::before, #todo-mundo::after {
@@ -172,12 +180,18 @@ main p {
     color: var(--light-gray);
     margin-top: 5vh;
     font-size: 1.25em;
+    padding-bottom: 10vh;
+}
+
+#todo-mundo h2 {
+    color: inherit;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: 900;
     padding-bottom: 1rem;
+    color: var(--c3);
 }
 
 .expandir {
@@ -197,6 +211,132 @@ details:open .expandir {
     height: auto;
 }
 
+#referencias {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5vh;
+}
+
+#referencias section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#referencias h3 {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: var(--c1);
+}
+
+#referencias > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#referencias li {
+    display: block;
+    padding: 1rem 0.5rem;
+    margin-top: 1rem;
+    background-color: var(--c1);
+    color: var(--light-gray);
+    border-radius: 5px;
+}
+
+#referencias p:first-child,
+#referencias a {
+    font-weight: bold;
+}
+
+#referencias p {
+    margin: 0;
+}
+
+footer {
+    margin-top: 10vh;
+    padding: 5vh 5%;
+    background-color: var(--c2);
+    color: var(--light-gray);
+    position: relative;
+    z-index: 1;
+}
+
+footer::before {
+    content: '';
+    display: block;
+    width: 120%;
+    height: 5vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-60%) rotate(-1deg);
+    background-color: inherit;
+    z-index: 0;
+}
+
+footer > h2 {
+    color: inherit;
+}
+
+#autores {
+    padding: 0;
+    width: 100%;
+}
+
+#autores h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--c4);
+    margin-top: 1.5rem;
+}
+
+#autores > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#autores > ul > li {
+    display: flex;
+}
+
+#autores > ul > li > * {
+    border: 1px solid var(--c4);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25em;
+    transition: all 0.15s linear;
+    margin: 0;
+}
+
+#autores > ul > li > *:hover {
+    background-color: var(--c4);
+    color: var(--gray);
+}
+
+#designer {
+    margin-top: 10vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+#designer .high {
+    display: inline-block;
+    color: var(--c4);
+    animation: float 1s infinite forwards;
+}
+
+#designer .high:first-of-type {
+    animation: pulse 1.5s infinite forwards;
+}
+
+#designer > a {
+    text-decoration: underline dotted var(--c4);
+    text-underline-offset: 2px;
+}
+
 @keyframes blink {
     0% { font-family: var(--font-1); color: var(--color-1); }
     25% { font-family: var(--font-2); color: var(--color-2); }
@@ -204,10 +344,35 @@ details:open .expandir {
     100% { font-family: var(--font-4); color: var(--color-4); }
 }
 
+@keyframes pulse {
+    0% { transform: scale(1); }
+    20% { transform: scale(1.1); }
+    40% { transform: scale(1); }
+    60% { transform: scale(1.1); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0%); }
+    20% { transform: translateY(5%); }
+    80% { transform: translateY(-5%); }
+    100% { transform: translateY(0%); }
+}
+
 @media screen and (orientation: landscape) {
     
     html,body {
         font-size: 18px;
+    }
+
+    #referencias {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    #referencias > h2 {
+        grid-column: 1/3;
     }
 
 }
